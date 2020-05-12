@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>My title</title>
+
+  <link rel="icon" href="https://via.placeholder.com/70x70">
+  <link rel="stylesheet" href="gd.css">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="shortcut icon" sizes="16x16 32x32 48x48 128x128 256x256 512x512" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="favicon.icns">
+
+  <meta name="og:title" content="Home">
+  <meta name="description" content="Here is the page description, make is decent and unique.">
+  <meta name="og:description" content="Here is the page description, make is decent and unique.">
+  <meta property="og:image" content="https://design-system.service.gov.uk/assets/images/govuk-opengraph-image.png">
+</head>
+
+<body>
+  <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <a name="top"></a>
+  <header>
+    <nav>
+      <a href="/"><img alt="Logo" src="logo.svg" width="280"></a>
+      <ul>
+        <li>Menu Item 1</li>
+        <li><a href="#">Menu Item 2</a></li>
+        <li><a href="#">Dropdown Menu Item</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <nav>
+    <ol>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Page</a></li>
+    </ol>
+  </nav>
+  <main>
+
+    <header>
+      <h1>Page <i>Italics</i> <u>Underline</u></h1>
+      <p>Page Subheading with <mark>highlighting</mark></p>
+      <p>Everything in header is centered</p>
+      <br>
+      <p><a href="#"><i>Italic Link Button</i></a><a href="#"><b>Bold Link Button &rarr;</b></a></p>
+    </header>
+
+    <h1>Typography & semantics</h1>
+    <p>The a tag stands for <a href="#">anchor</a> from old hypertext speak. You can use <abbr title="abbreviation">abbr</abbr> to abbreviate things. <q><em>q</em> is for creating a short quotation</q>, great for getting smart quotes in without
+      thinking about symbols, and also making the page more semantic. If you want to emphasise text you can use or <em>em</em> to do that, depending on the need for style or semantic emphasis.</p>
+
+    <section>
+      <aside>
+        <h3>This is a column</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </aside>
+      <aside>
+        <h3>This is a column</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </aside>
+      <aside>
+        <h3>This is a column</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      </aside>
+    </section>
+
+    <hgroup>
+      <h4>Some title smaller</h4>
+      <h1>Big heading</h1>
+    </hgroup>
+
+    <blockquote cite="http://w3c.github.io/html-reference/blockquote.html">
+      <q>Big quote</q>
+      <p>"Quote"</p>
+      <cite>- Attribution</cite>
+    </blockquote>
+
+    <p>Citation of titles aren't usually visible <cite>cite</cite> the same is true of <data value="data-value-goes-here">data</data>.
+      There's also few cases where you need <ins>ins (inserted text)</ins> or <del>del (which is deleted text)</del>
+      unless you're tracking changes. Similarly the <em>s</em> tag specifies text that is no longer correct, <s>accurate or relevant</s>.
+      The <dfn>dfn</dfn> tag represents the defining instance of a term in HTML, which could be useful for semantic expression.</p>
+
+    <p>Some microformats and search engines can understand your address:</p>
+    <address>address, street
+      and
+      postcode</address>
+
+    <h3>Phrase tags</h3>
+    <p>The human phrase tags are <em>em</em> which <em>renders as emphasized text</em>. and <em>strong</em> which <strong>defines important text</strong>.</p>
+    <p>Then we have a set of computer related tags, which we style all the same, they are
+      <em>samp</em>, <samp>defines sample output from a computer program</samp>,
+      <em>kdb</em> which <kbd>defines keyboard input</kbd> and <em>var</em> which
+      <var>defines a variable</var>. These are super rare, so they all look the same to save writing styles.</p>
+
+
+      <p><var>em</var> Renders as <em>emphasized text</em></p>
+      <p><var>strong</var> 	Defines <strong>important text</strong></p>
+      <p><var>code</var> Defines a piece of <code>computer code</code></p>
+      <p><var>samp</var> Defines <samp>sample output</samp> from a computer program</p>
+      <p><var>kbd</var> Defines <kbd>keyboard</kbd> input</p>
+      <p><var>var</var> Defines a variable like <var>OK</var></p>
+
+    <h3>Pre, samp & code</h3>
+    <p>Then there's <em>code</em> which in this framework's opion is more like address and used as a block rather than an inline.</p>
+    <code> Defines a piece of computer code</code>
+    <pre>The pre tag defines preformatted text. It's at the same level as p.</pre>
+    <pre> — preformatted text</pre>
+    <pre><code> — code block</code></pre>
+    <pre><samp> — computer output block</samp></pre>
+    <samp> — inline computer output</samp>
+
+    <h3>the b, i, u & strong tags</h3>
+    <p><b>b</b> and <strong>strong</strong> are there for emphasis. We add basic typographical queues here. The <i>i tag</i> defines a part of text in an alternate voice or mood usually displayed in italic. The <u>u tag</u> represents some text that
+      should be stylistically different from normal text, such as misspelled words or proper nouns in Chinese.</p>
+
+
+
+    <p>Use these elements only when there is not a more appropriate semantic element, such as: em, strong, mark,
+      cite, dfn.</p>
+
+    <p><small>The <em>small</em> tag defines smaller text <small>(and other side comments)</small>.</small> This text contains <sub>subscript</sub> text. This text contains <sup>superscript</sup> text. <em>Time</em> is a tag for semanticly adding
+      timestamps like for <time datetime="2020-02-14 9:00">Valentines day 2020</time>. <var>var</var> tag is a phrase tag. It defines a variable.</p>
+
+    <p>Use the <mark>mark</mark> tag if you want to highlight parts of your text.</p>
+
+    <details>
+      <summary>Summary is the visible part of a details toggle</summary>
+      details tag contains the content that is hidden.
+    </details>
+
+    <hr />
+
+    <h1>Headings and paragraphs</h1>
+    <p>That was a heading level 1, often the biggest heading. Really this is about creating good semantic page structure for accessibility.</p>
+    <h2>h2 heading</h2>
+    <p>That was a heading level 2, usually smaller than the previous heading. Really this is about creating good semantic page structure for accessibility.</p>
+    <h3>h3 heading</h3>
+    <p>That was a heading level 2, usually smaller than the previous heading. Really this is about creating good semantic page structure for accessibility.</p>
+    <h4>h4 heading</h4>
+    <p>That was a heading level 2, usually smaller than the previous heading. Really this is about creating good semantic page structure for accessibility.</p>
+    <h5>h5 heading</h5>
+    <p>That was a heading level 2, usually smaller than the previous heading. Really this is about creating good semantic page structure for accessibility.</p>
+    <h6>h6 heading</h6>
+    <p>That was a heading level 2, usually smaller than the previous heading. Really this is about creating good semantic page structure for accessibility.</p>
+
+    <hr />
+
+    <!-- Forms -->
+    <h1>Forms and field widgets</h1>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      <section>
+        <div>
+          <fieldset>
+            <legend>Text fields</legend>
+            <p>
+              <label for="text">text</label>
+              <input type="text" id="text" />
+            </p>
+            <p>
+              <label for="email">email</label>
+              <input type="email" id="email" />
+            </p>
+            <p>
+              <label for="search2" alt="Image alt text">Search combo</label><label for="image2" alt="Image alt text" class="visually-hidden">Search button</label>
+              <input type="search" id="search2"><input type="image" alt="Image alt text" id="image2" src="search.svg" />
+            </p>
+            <p>
+              <label for="url">url</label>
+              <input type="url" id="url" />
+            </p>
+            <p>
+              <label for="tel">tel</label>
+              <input type="tel" id="tel" />
+            </p>
+
+            <p>
+              <label for="number">number</label>
+              <input type="number" id="number" />
+            </p>
+            <p>
+              <label for="password">password</label>
+              <input type="password" id="password" />
+            </p>
+            <p>
+              <label for="datalist">Datalist</label>
+              <input id="datalist" list="browsers">
+              <datalist id="browsers">
+                <option value="All">All</option>
+                <option value="Internet Explorer">Internet Explorer</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Opera">Opera</option>
+                <option value="Safari">Safari</option>
+              </datalist>
+            </p>
+
+
+            <p>
+              <label for="textarea">Text area</label>
+              <textarea id="textarea">Text area</textarea>
+            </p>
+
+
+          </fieldset>
+        </div>
+
+        <div>
+
+          <fieldset>
+            <legend>Dates and times</legend>
+            <p>
+              <label for="date">date</label>
+              <input type="date" id="date" />
+            </p>
+            <p>
+              <label for="datetime">datetime</label>
+              <input type="datetime" id="datetime" />
+            </p>
+            <p>
+              <label for="datetime-local">datetime-local</label>
+              <input type="datetime-local" id="datetime-local" />
+            </p>
+            <p>
+              <label for="time">time</label>
+              <input type="time" id="time" />
+            </p>
+            <p>
+              <label for="week">week</label>
+              <input type="week" id="week" />
+            </p>
+            <p>
+              <label for="month">month</label>
+              <input type="month" id="month" />
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Outputs - formula fields</legend>
+            <p>
+              <label for="a">A range added to a number field</label>
+              <input type="range" id="a" value="50">
+              <label for="b">+</label>
+              <input type="number" id="b" value="50">
+              =<output name="x" for="a b"></output>
+            </p>
+          </fieldset>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <fieldset>
+            <legend>Selects & option groups</legend>
+            <p>
+              <label for="select">Select field</label>
+              <select id="select">
+                <optgroup label="optgroup">
+                  <option value="value1">option</option>
+                  <option value="value2">option</option>
+                  <option value="value3">option</option>
+                </optgroup>
+                <optgroup label="optgroup">
+                  <option value="value1">option</option>
+                  <option value="value2">option</option>
+                  <option value="value3">option</option>
+                </optgroup>
+              </select>
+            </p>
+            <hr>
+            <p>
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox">Checkbox</label>
+            </p>
+            <p>
+              <input type="checkbox" id="checkbox2" />
+              <label for="checkbox2">Checkbox 2</label>
+            </p>
+            <hr>
+            <p>
+              <input type="checkbox" id="checkbox3" />
+              <label for="checkbox3">Checkbox 2</label>
+              <input type="checkbox" id="checkbox4" />
+              <label for="checkbox4">Checkbox 2</label>
+            </p>
+            <section>
+              <div>
+                <p>
+                  <input type="radio" id="radio1" name="group1" />
+                  <label for="radio1">Radio</label>
+                </p>
+                <p>
+                  <input type="radio" id="radio2" name="group1" />
+                  <label for="radio2">Radio 2</label>
+                </p>
+              </div>
+              <hr>
+              <div>
+                <p>
+                  <input type="radio" id="radioa" name="group2" />
+                  <label for="radioa">Yes</label>
+                  <input type="radio" id="radiob" name="group2" />
+                  <label for="radiob">No</label>
+                  <input type="radio" id="radioc" name="group2" />
+                  <label for="radioc">Other</label>
+                </p>
+              </div>
+            </section>
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Legend</legend>
+            <p>
+              <label for="color">color</label>
+              <input type="color" id="color" />
+            </p>
+            <p>
+              <label for="file">file</label>
+              <input type="file" id="file" />
+            </p>
+            <p>
+              <label for="hidden">hidden</label>
+              <input type="hidden" id="hidden" />
+              Nothing to see... obvs!
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Buttons</legend>
+            <section>
+              <p>
+                <label for="button">Button input</label>
+                <input type="button" id="button" value="Button" />
+              </p>
+              <p>
+                <label for="submit">Submit</label>
+                <button type="submit" id="submit">Submit Button</button>
+              </p>
+              <p>
+                <label for="reset">Reset button</label>
+                <input type="reset" id="reset" value="Reset" />
+              </p>
+            </section>
+          </fieldset>
+        </div>
+      </section>
+    </form>
+
+    <hr />
+
+    <!-- Lists -->
+    <h1>Lists</h1>
+    <section>
+      <div>
+        <ul>
+          <li>Unordered list item</li>
+          <li>Unordered list item</li>
+          <li>Unordered list item</li>
+          <li>Unordered list item</li>
+        </ul>
+      </div>
+      <div>
+        <ol>
+          <li>Ordered list item</li>
+          <li>Ordered list item</li>
+          <li>Ordered list item</li>
+          <li>Ordered list item</li>
+        </ol>
+      </div>
+      <div>
+        <dl>
+          <dt>Definition term</dt>
+          <dd>Definition description</dd>
+          <dt>Definition term</dt>
+          <dd>Definition description</dd>
+          <dt>Definition term</dt>
+          <dd>Definition description</dd>
+          <dt>Definition term</dt>
+          <dd>Definition description</dd>
+        </dl>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Media -->
+    <h1>Media</h1>
+
+    <section>
+      <div>
+        <h3>Figure</h3>
+        <figure>
+          <img src="https://via.placeholder.com/960x320" alt="The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.">
+          <figcaption>The figcaption tag defines a caption for a figure element.</figcaption>
+        </figure>
+      </div>
+      <div>
+        <h3>Picture</h3>
+        <picture>
+          <source media="(min-width: 650px)" srcset="https://via.placeholder.com/960x320">
+          <source media="(min-width: 465px)" srcset="https://via.placeholder.com/650x320">
+          <img src="https://via.placeholder.com/465x320" alt="Placeholder image" />
+        </picture>
+      </div>
+    </section>
+
+    <h3>SVG</h3>
+    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+
+    <h3>Audio</h3>
+    <audio controls>
+      <source src="audio.ogg" type="audio/ogg">
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+
+    <h3>Video</h3>
+    <video width="320" height="240" controls>
+      <source src="video.mp4" type="video/mp4">
+      <source src="video.ogg" type="video/ogg">
+      <!--<track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+      <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">-->
+    </video>
+
+    <h3>Meters & Progress bars</h3>
+    <meter min="0" low="10" optimum="50" high="90" max="100" value="40">10 out of 100</meter>
+    <meter low=".25" optimum=".2" high=".75" value=".8"></meter>
+    <meter low=".25" optimum=".8" high=".75" value=".2"></meter>
+    <meter low=".25" optimum=".85" high=".75" value=".5"></meter>
+    <meter low=".25" optimum=".5" high=".75" value=".5"></meter>
+    <progress value="65" max="100"></progress>
+
+    <h3>IFrame</h3>
+    <iframe src="index.html" title="Alternative text content"></iframe>
+
+    <h3>Object</h3>
+    <object data="audio.mp3" alt="Alternative text content">
+      <param name="autoplay" value="true">
+    </object>
+
+    <h3>Canvas</h3>
+    <canvas id="example_canvas"></canvas>
+    <script>
+      var canvas = document.getElementById("example_canvas");
+      var ctx = canvas.getContext("2d");
+      ctx.fillStyle = "#FF0000";
+      ctx.fillRect(0, 0, 80, 80);
+    </script>
+
+    <hr />
+
+    <!-- Tables -->
+    <h1>Tables</h1>
+    <table>
+      <caption>The caption tag goes straight after <em>table</em>.</caption>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Month">January</td>
+          <td data-label="Savings">$100</td>
+        </tr>
+        <tr>
+          <td data-label="Month">February</td>
+          <td data-label="Savings">$80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td data-label="Sum">Sum</td>
+          <td data-label="Savings">$180</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+
+    <!-- languages -->
+    <h1>Internationalisation</h1>
+    <section>
+      <div>
+        <h3>BDO & BDI</h3>
+        <p>Sometimes you need text to change direction mid-flow, this is what <bdi>BDI</bdi> is for, a great example is usernames.</p>
+        <bdo dir="rtl">
+          <p>عندما يريد العالم أن ‪يتكلّم ‬ ، فهو يتحدّث بلغة يونيكود. تسجّل الآن لحضور المؤتمر الدولي العاشر ليونيكود (Unicode Conference)، الذي سيعقد في 10-12 آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين خبراء من كافة قطاعات الصناعة
+            على الشبكة العالمية انترنيت ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة اللغات.
+          </p>
+          <p>مَمِمّمَّمِّ</p>
+        </bdo>
+        <p>Which is useful for wrapping blocks of content with languages that flow in that direction.</p>
+      </div>
+      <div>
+        <h3>Ruby</h3>
+        <p>A ruby annotation is a small extra text, attached to the main text to indicate the pronunciation or meaning of the corresponding characters. This kind of annotation is often used in Japanese publications. The <em>rp</em> tag can be used
+          to
+          provide parentheses around a ruby text, to be shown by browsers that do not support ruby annotations. The <em>rt</em> tag defines an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation.</p>
+        <ruby>
+          漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+        </ruby>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Structures -->
+    <h1>Page structural elements</h1>
+
+    <header>
+      <h3>Header</h3>
+      <p>The header element represents a container for introductory content or a set of navigational links.A header element typically contains: one or more heading elements (h1 - h6), logo & branding etc. You can have several header elements in one
+        document.</p>
+      <p><em>Note:</em> A header tag cannot be placed within a footer, address or another header element.</p>
+    </header>
+
+    <section>
+      <article>
+        <h3>Article</h3>
+        <p>The <em>article</em> tag specifies independent, self-contained content. An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.</p>
+      </article>
+
+      <aside>
+        <h3>Aside</h3>
+        <p>The <em>aside</em> tag defines some content aside from the content it is placed in. The aside content should be related to the surrounding content.</p>
+      </aside>
+    </section>
+
+    <hr>
+
+    <h3>DIVs don't do anything</h3>
+    <div>
+      <p>As it should be 😅 I've left them alone, this means they can be containers, you can add styling or classes to them to build what you want.
+    </div>
+
+    <hr />
+    <h4>Link effects</h4>
+    <section>
+      <div>
+        <a href="javascript:history.back()">Back</a>
+      </div>
+      <div>
+        <a href="https://dev.ngo/">External site</a>
+      </div>
+      <div style="text-align:right">
+        <a href="#top">Back to top</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <main>
+      A fantastically simple and semantic set of styles. I mean, just look at the source for this page - it's super simple.
+    </main>
+  </footer>
+</body>
+
+</html>
