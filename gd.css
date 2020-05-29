@@ -67,7 +67,9 @@ body {
 header {
   background: var(--color-body);
   color: var(--color-body-inverted);
-  display: grid
+  padding: var(--unit);
+  overflow: hidden;
+  /* display: grid */
 }
 
 main header {
@@ -79,11 +81,12 @@ main header {
 }
 
 nav {
-  display: grid;
-  max-width: calc(var(--measure) - var(--unit-2));
-  grid-template-columns: repeat(auto-fit, minmax(var(--measure-min), 1fr));
-  margin: var(--unit) auto;
-  width: 100%
+  /* display: grid; */
+  /* max-width: calc(var(--measure) - var(--unit-2)); */
+  /* grid-template-columns: repeat(auto-fit, 1fr); */
+  /* margin: var(--unit) auto; */
+  /* padding: 0 var(--unit-1); */
+  /* width: 100% */
 }
 
 nav ol, nav ul {
@@ -91,7 +94,9 @@ nav ol, nav ul {
 }
 
 header nav {
-  padding: 0 var(--unit)
+  /* padding: 0 var(--unit) */
+  max-width: var(--measure);
+  margin: 0 auto;
 }
 
 header nav :last-child {
@@ -110,7 +115,8 @@ nav ol, nav ul {
 header+nav {
   border-top: 10px solid var(--color-primary);
   max-width: var(--measure);
-  margin: 0 auto var(--unit)
+  margin: 0 auto var(--unit);
+  padding: 0 var(--unit)
 }
 
 nav li {
@@ -1009,13 +1015,24 @@ body>footer a {
   color: var(--color-body)
 }
 
-@media all and (max-width: 480px) {
-  body {
-    font-size: 14px
+@media all and (min-width: 640px) {
+  nav {
+    display: flex;
+  }
+  nav > * {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 }
 
-@media screen and (max-width:600px) {
+@media all and (min-width: 960px) {
+  header+nav {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:640px) {
   table thead {
     border: 0;
     clip: rect(0 0 0 0);
