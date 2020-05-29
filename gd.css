@@ -30,7 +30,7 @@
   --color-tertiary-visited: #6F0000
 }
 
-.skip-link, .visually-hidden {
+.hide {
   position: absolute;
   left: -10000px;
   top: auto;
