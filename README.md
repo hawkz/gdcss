@@ -11,7 +11,7 @@ GDCSS is aimed at projects needing to blast out some HTML quickly and turn it in
 
 [Read the docs](https://hawkz.github.io/gdcss/docs.html).
 
-* Live demo of current master: https://latest.datasette.io/
+* Live demo of current master: https://hawkz.github.io/gdcss/demo/
 
 ## Installation
 Just add the CSS file to the `<head>` of your HTML.
@@ -19,3 +19,9 @@ Just add the CSS file to the `<head>` of your HTML.
     <link href="https://hawkz.github.io/gdcss/gd.css" rel="stylesheet">
 
 That's it! simple HTML now becomes a visually accessible page.
+
+## Feedback
+
+Would love to hear you feedback on this, so the form on the landing page is live...
+
+[Give feedback](https://hawkz.github.io/gdcss/).
