@@ -360,10 +360,6 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
   padding: 8px 10px 7px
 }
 
-input[type="button"] + input[type="submit"], input[type="submit"] + input[type="reset"], input[type="button"] + input[type="reset"] {
-  margin-left: 1rem;
-}
-
 input[type="button"] {
   background-color: var(--color-primary)
 }
