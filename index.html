@@ -23,7 +23,7 @@
   <a href="#main-content" class="hide">Skip to main content</a>
   <a name="top"></a>
   <header>
-    <nav>
+    <nav role="navigation">
       <a href="/"><img alt="GDCSS" src="/demo/logo.svg" width="280"></a>
       <ul>
         <li><a href="/">Home</a></li>
@@ -45,7 +45,7 @@
       </hgroup>
       <p>gd.css styles all visible HTML elements in line with modern best practice.
         It focusses only on HTML tags so you can just write HTML (no classes) and make pages like this.</p>
-      <p><input type="button" value="Download" onclick="javascript:window.location='gd.css'" /> <input type="submit" value="Documentation" onclick="javascript:window.location='docs.html'"> <input type="submit" value="Demo" onclick="javascript:window.location='/demo/'"></p>
+      <p><input role="link" type="button" value="Download" onclick="javascript:window.location='gd.css'" /> <input role="link" type="submit" value="Documentation" onclick="javascript:window.location='docs.html'"> <input role="link" type="submit" value="Demo" onclick="javascript:window.location='/demo/'"></p>
 
     </article>
 
@@ -87,7 +87,7 @@
           <p>It would be especially awesome to hear about how and where you've used this!</p>
           <h3>How to contribute</h3>
           <p>This is a great project to contribute to, no complex tooling setup, just make changes to the gd.css file as pull request on GitHub.</p>
-          <input type="submit" value="Go to GitHub" onclick="window.url='https://github.com/hawkz/gdcss'">
+          <input role="link" type="submit" value="Go to GitHub" onclick="window.url='https://github.com/hawkz/gdcss'">
         </div>
         <div>
           <fieldset>
@@ -135,6 +135,7 @@
           <li>💯 Accessibility</li>
           <li>💯 Best Practice</li>
           <li>💯 SEO</li>
+          <li>Tested to WCAG 2.0 AA</li>
         </ul>
       </div>
     </section>
