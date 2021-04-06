@@ -572,7 +572,7 @@ textarea {
   -webkit-box-sizing: border-box
 }
 
-textarea:invalid, input:invalid {
+textarea[value=""]:invalid, input[value=""]:invalid {
   outline: 3px solid var(--color-error);
   outline-offset: 0;
   box-shadow: none;
