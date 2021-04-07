@@ -572,7 +572,8 @@ textarea {
   -webkit-box-sizing: border-box
 }
 
-textarea[value=""]:invalid, input[value=""]:invalid {
+textarea:not(:placeholder-shown):not(:focus):invalid, input:not(:placeholder-shown):not(:focus):invalid {
+  /* requires placeholder */
   outline: 3px solid var(--color-error);
   outline-offset: 0;
   box-shadow: none;
