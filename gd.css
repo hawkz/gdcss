@@ -451,8 +451,9 @@ input[type="checkbox"], input[type="radio"] {
 input[type="radio"]+label {
   display: inline-block;
   position: relative;
-  padding-left: 5rem;
+  padding-left: 3.5rem;
   padding-right: 2rem;
+  padding-bottom: 0.75rem;
   cursor: pointer
 }
 
@@ -486,8 +487,9 @@ input[type="radio"]:focus:checked+label:before {
 
 input[type="checkbox"]+label {
   display: inline-block;
-  padding-left: .5rem;
+  padding-left: 3.5rem;
   padding-right: 2rem;
+  padding-bottom: 0.75rem;
   cursor: pointer
 }
 
@@ -495,9 +497,9 @@ input[type="checkbox"]+label:before {
   content: "";
   display: inline-block;
   box-sizing: border-box;
-  position: relative;
+  position: absolute;
   left: -.75rem;
-  top: 1rem;
+  top: 0;
   margin-top: -.75rem;
   vertical-align: baseline;
   width: 3rem;
