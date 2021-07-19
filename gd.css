@@ -486,6 +486,7 @@ input[type="radio"]:focus:checked+label:before {
 }
 
 input[type="checkbox"]+label {
+  position: relative;
   display: inline-block;
   padding-left: 3.5rem;
   padding-right: 2rem;
