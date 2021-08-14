@@ -499,7 +499,7 @@ input[type="checkbox"]+label:before {
   display: inline-block;
   box-sizing: border-box;
   position: absolute;
-  left: -.75rem;
+  left: -.25rem;
   top: 0;
   margin-top: -.75rem;
   vertical-align: baseline;
