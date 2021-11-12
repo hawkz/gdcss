@@ -11,7 +11,7 @@ GDCSS is aimed at projects needing to blast out some HTML quickly and turn it in
 
 [Read the docs](https://hawkz.github.io/gdcss/docs.html).
 
-* Live demo of current master: https://hawkz.github.io/gdcss/demo/
+* Live demo of current master: https://gdcss.netlify.app/demo/
 
 ## Installation
 Just add the CSS file to the `<head>` of your HTML.
